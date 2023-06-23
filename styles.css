@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+}
+
+
+
+h1 {
+    color: black;
+    font-family: times new roman;
+    font-size: 300%;
+}
+p  {
+    color:black;
+    font-family:times new roman;
+    font-size: 160%;
+    
+
+     padding: 0px;
+    margin:0px;
+}
+
+#p01 {
+    color: blue;
+    border: 2px solid purple;
+    padding: 10px;
+    margin: 20px;
+}
+
+p.error {
+    color: red;
+}
+
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+}
+
+
+.col-1-3 {
+    width: 33%;
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+.col-2-3 {
+    width: 66%;
+    display: inline-block;
+     margin: 10px;
+ 
+
+}
+.row {
+    overflow: hidden; /* Отменяем обтекание */
+   }
+}
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+   }
+ 
